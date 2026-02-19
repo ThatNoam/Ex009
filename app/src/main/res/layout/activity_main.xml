@@ -24,13 +24,15 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="195dp"
-        android:layout_height="137dp"
+        android:layout_width="237dp"
+        android:layout_height="107dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="327dp"
         android:layout_marginEnd="161dp"
         android:layout_marginBottom="200dp"
+        android:onClick="clicked"
         android:text="Click me"
+        android:textSize="100px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

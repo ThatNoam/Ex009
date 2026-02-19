@@ -10,9 +10,18 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText et;
+    Button btn;
+    String text;
+    int num;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        et = findViewById(R.id.editTextNumber);
+        btn = findViewById(R.id.button);
     }
+
 }
